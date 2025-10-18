@@ -1,7 +1,7 @@
 from src.app import greet
 
 def test_default():
-    assert greet("") == "Hello, world!"
+    assert greet("") == "Hello there, world!"
 
 def test_name():
-    assert greet("Caitlin") == "Hello, Caitlin!"
+    assert greet("Caitlin") == "Hello there, Caitlin!"
